@@ -1,0 +1,120 @@
+body {
+  padding-top: 120px;
+  background: 
+  url(../img/fundo2.png),
+  linear-gradient(to right, rgba(253, 132, 14, 0.5),
+   rgba(174, 174, 174, 0.5));
+  overflow-x: hidden;
+}
+
+.navbar-nav a{
+  color: black;
+}
+
+.navbar-nav li {
+  padding: 0 15px;
+   float: right;
+}
+
+#black .carousel-control-next{
+    opacity: 0.8;
+      filter: invert(1);
+}
+#black .carousel-control-prev{
+    opacity: 0.8;
+    filter: invert(1);
+}
+
+#black .carousel-indicators {
+   opacity: 0.8;
+    filter: invert(1);
+}
+
+.navbar-transparente {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+
+.fundo {
+  background: linear-gradient(to right, rgba(253, 132, 14, 0.5),
+   rgba(174, 174, 174, 0.8)); 
+  margin-top: 20px;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+  display: flex;
+}
+
+.borders {
+  clear: both;
+  height: 100%;
+  display: flex;
+}
+
+.align{
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer {
+background: rgba(255, 255, 255, 0.8);
+padding: 20px 0;
+}
+
+footer li {
+  list-style: none;
+  display: none;
+  float: right;
+  padding: 0 10px;
+}
+
+.nav-link {
+ float: right;
+
+}
+
+
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+  footer li {
+  list-style: none;
+  float: right;
+  padding: 0 10px;
+  display: flex;
+}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #carousel-indicadores4 .carousel-control-prev {
+  padding-right: 130px;
+}
+
+#carousel-indicadores4 .carousel-control-next {
+  padding-left: 130px;
+}
+ }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
+
+
