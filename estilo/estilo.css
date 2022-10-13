@@ -5,6 +5,7 @@ body {
    rgba(174, 174, 174, 0.5));
   overflow-x: hidden;
   background-attachment: fixed;
+  background-size: 400px;
 }
 
 html {
@@ -203,6 +204,10 @@ b {
 
 .lead {
    font-size: 2vw;
+}
+
+body {
+  background-size: 800px;
 }
 
 }
