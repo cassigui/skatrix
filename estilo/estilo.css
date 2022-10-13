@@ -5,15 +5,22 @@ body {
   linear-gradient(to right, rgba(253, 132, 14, 0.5),
    rgba(174, 174, 174, 0.5));
   overflow-x: hidden;
+  background-attachment: fixed;
 }
 
 .navbar-nav a{
   color: black;
 }
 
+.navbar-nav a:hover{
+  color: #FD840E;
+  font-size: 16.5px;
+}
+
 .navbar-nav li {
   padding: 0 15px;
    float: right;
+   text-align: center;
 }
 
 #black .carousel-control-next{
@@ -34,6 +41,7 @@ body {
   background: rgba(255, 255, 255, 0.8);
 }
 
+
 .zoom:hover {
   transform: scale(1.1);
 }
@@ -44,20 +52,16 @@ body {
   margin: 0 auto;
 }
 
-
-.fundo {
-  background: linear-gradient(to right, rgba(253, 132, 14, 0.5),
-   rgba(174, 174, 174, 0.8)); 
-  margin-top: 20px;
-  border-top: 2px solid orange;
-  border-bottom: 2px solid orange;
-  display: flex;
+.zoom2 {
+  transition: transform .2s; /* Animation */
 }
 
-.borders {
-  clear: both;
-  height: 100%;
-  display: flex;
+.zoom2:hover {
+  transform: scale(1.05);
+}
+
+.zoom2 img {
+  margin: auto;
 }
 
 .align{
@@ -68,6 +72,7 @@ body {
 footer {
 background: rgba(255, 255, 255, 0.8);
 padding: 20px 0;
+margin: 0;
 }
 
 footer li {
@@ -79,9 +84,68 @@ footer li {
 
 .nav-link {
  float: right;
-
 }
 
+.alta {
+  transform: scale(2.0);
+}
+
+/*Produtos***********************
+*********************************/
+
+.inverter{
+  filter: invert(1);
+}
+
+#black2 .carousel-indicators {
+   opacity: 1.0;
+    filter: invert(1);
+}
+
+.carousel-indicators .active {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 0px;
+    transform: scale(0.9);
+}
+
+.indicador img {
+  padding: 0;
+  border-radius: 10px;
+}
+
+#produtos li {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#produtos ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.display-4 {
+  font-size: 6vw;
+}
+
+.lead {
+   font-size: 4vw;
+}
+
+.transparente {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+b {
+  color: #FD840E;
+}
+
+.container {
+  padding: 0;
+}
+/*FIM Produtos***********************
+*********************************/
 
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -99,6 +163,19 @@ footer li {
   padding: 0 10px;
   display: flex;
 }
+
+.alta {
+  transform: scale(1.0);
+}
+
+.display-4 {
+  font-size: 4vw;
+}
+
+.lead {
+   font-size: 2vw;
+}
+
 }
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
@@ -112,9 +189,19 @@ footer li {
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) { 
+.display-4 {
+  font-size: 3vw;
+}
+
+.lead {
+   font-size: 2vw;
+}
+
+}
+ }
 
 
