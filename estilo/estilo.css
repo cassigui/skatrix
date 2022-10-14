@@ -162,10 +162,6 @@ footer li {
   background: rgba(0, 0, 0, 0.8);
 }
 
-b {
-  color: #FD840E;
-}
-
 .container {
   padding: 0;
  
@@ -187,7 +183,6 @@ b {
 .titulos {
    text-align: center;
    background: white;
-  
 }
 
 .hr {
@@ -201,6 +196,76 @@ b {
   border-top: 3px solid ;
   border-color: white;
   margin: 0 1em;
+}
+
+.value {
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+.value:hover {
+   background: rgba(255, 255, 255, 0.8);
+   color: black;
+}
+
+
+#search {
+  border-radius: 5px;
+}
+
+.float {
+  float: left;
+}
+
+.float2 {
+  float: right;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  clear: both;
+}
+
+#itens h4 {
+  font-size: 3vw;
+  text-transform: uppercase;
+}
+
+#itens p {
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+#itens, .material-symbols-outlined {
+  padding: 5px 5px 2px 5px;
+  margin-bottom: 8px;
+}
+
+.button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.options {
+  padding: 0;
+  margin: 0;
+}
+
+.options ul {
+  padding: 0;
+  margin: 0;
+}
+
+.options h4 {
+  font-size: 2vw;
+}
+
+.options li {
+  list-style: none;
+  font-size: 2vw;
 }
 
 /*FIM Produtos***********************
@@ -271,10 +336,23 @@ body {
 #carousel-indicadores4 .carousel-control-next {
   padding-left: 130px;
 }
+
+
+  #itens h4 {
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+#itens p {
+  font-size: 2vw;
+  font-weight: 500;
+}
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) { 
