@@ -118,6 +118,14 @@ footer li {
  float: right;
 }
 
+.button, .btn-light:hover {
+  background: none;
+}
+
+.button, .btn-light:active {
+  background: none;
+  padding-bottom: 2px;
+}
 
 /*Produtos***********************
 *********************************/
@@ -253,17 +261,11 @@ footer li {
   background: none;
 }
 
-.butao a:active {
+#itens , a:active {
   border: none;
   margin: 0;
-  padding: 0;
+ 
 }
-
-#itens, .material-symbols-outlined:active {
-  border: none;
-  margin: 0;
-}
-
 
 .options h4 {
   font-size: 2vw;
